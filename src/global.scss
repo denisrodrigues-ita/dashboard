@@ -1,0 +1,31 @@
+:root {
+  --cor-principal: #e4e4e4;
+  --cor-secundaria: #959fa6;
+}
+
+.background-principal {
+  background-color: var(--cor-principal);
+}
+
+.background-secundario {
+  background-color: var(--cor-secundaria);
+}
+
+.texto-principal {
+  color: var(--cor-principal);
+}
+
+.texto-secundario {
+  color: var(--cor-secundaria);
+}
+
+body {
+  overflow: hidden;
+}
+
+button {
+  &:hover {
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+  }
+}

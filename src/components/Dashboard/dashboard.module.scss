@@ -1,0 +1,13 @@
+.dashboard {
+  overflow-y: auto;
+  height: 100vh;
+  width: 100vw;
+  padding-right: 17px;
+}
+
+@media (max-width: 992px) {
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

@@ -1,0 +1,24 @@
+.nav {
+  height: 100vh;
+  width: 4rem;
+  span {
+    display: none;
+  }
+  img {
+    width: 4rem;
+    margin: none;
+    padding: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav {
+    width: 6rem;
+    span {
+      display: block;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
