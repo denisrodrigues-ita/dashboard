@@ -11,6 +11,11 @@
   }
 }
 
+.logo path {
+  fill: #6c757d;
+  stroke: #6c757d;
+}
+
 @media (min-width: 992px) {
   .nav {
     width: 6rem;
@@ -19,6 +24,9 @@
     }
     img {
       width: 100%;
+    }
+    .logo {
+      width: 5rem;
     }
   }
 }

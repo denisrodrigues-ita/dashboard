@@ -1,7 +1,7 @@
 import { RiBankLine, RiDashboardFill, RiBarChartFill } from "react-icons/ri";
 import { BsGearFill, BsBellFill, BsPersonCircle } from "react-icons/bs";
 import styles from "./navbar.module.scss";
-import logo from "../../assets/img/ng7.png";
+import Logo from "../../assets/icons/Ddev";
 
 const Navbar = (setPage) => {
   return (
@@ -9,7 +9,7 @@ const Navbar = (setPage) => {
       className={`${styles.nav} d-flex flex-column gap-5 background-secundario text-light`}
     >
       <div className="text-center justify-content-center align-items-center py-3">
-        <img src={logo} alt="Logo da empresa NG7" className="img-fluid" />
+        <Logo className={styles.logo} />
       </div>
       <button
         onClick={() => {
