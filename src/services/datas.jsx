@@ -2,7 +2,7 @@ import React from "react";
 import apiFetch from "./apiFetch";
 import dataProcessing from "./dataProcessing";
 
-const URL = "https://randomuser.me/api/?results=50";
+const URL = "https://randomuser.me/api/?results=500";
 const METHOD = "GET";
 
 const Datas = () => {
