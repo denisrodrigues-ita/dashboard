@@ -1,5 +1,9 @@
 const Instituitions = () => {
-  return <div>Instituitions</div>;
+  return (
+    <div>
+      <h1>Instituitions</h1>
+    </div>
+  );
 };
 
 export default Instituitions;
