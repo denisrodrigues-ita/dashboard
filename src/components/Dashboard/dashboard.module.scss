@@ -5,9 +5,16 @@
   padding-right: 17px;
 }
 
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  
+}
+
 @media (max-width: 992px) {
   canvas {
     width: 100% !important;
     height: 100% !important;
+
   }
 }

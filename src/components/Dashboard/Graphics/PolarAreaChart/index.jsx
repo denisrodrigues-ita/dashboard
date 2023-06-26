@@ -21,7 +21,7 @@ const PolarAreaChart = (result) => {
     labels: keys,
     datasets: [
       {
-        label: "Age Group",
+        label: "Women age group",
         data: values,
         backgroundColor: [
           "rgba(255, 99, 132, 0.5)",
